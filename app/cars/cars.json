@@ -1,0 +1,86 @@
+[
+    {
+        "company": "BMW",
+        "id": "bmw-x3",
+        "imageUrl": "img/cars/bmw-x3.0.jpg",
+        "name": "BMW X3",
+        "snippet": "Next challenge, please."
+    },
+    {
+        "company": "BMW",
+        "id": "bmw-x5",
+        "imageUrl": "img/cars/bmw-x5.0.jpg",
+        "name": "BMW X5",
+        "snippet": "A work of progress."
+    },
+    {
+        "company": "BMW",
+        "id": "bmw-z4",
+        "imageUrl": "img/cars/bmw-z4.0.jpg",
+        "name": "BMW Z4",
+        "snippet": "Driven by heart."
+    },
+    {
+        "company": "Lexus",
+        "id": "lexus-rx350",
+        "imageUrl": "img/cars/lexus-rx350.0.jpg",
+        "name": "Lexus RX 350",
+        "snippet": "Never lose your edge."
+    },
+    {
+        "company": "Lexus",
+        "id": "lexus-rxfsport",
+        "imageUrl": "img/cars/lexus-rxfsport.0.jpg",
+        "name": "Lexus RX F Sport",
+        "snippet": "Take the everyday to the next level."
+    },
+    {
+        "company": "Lexus",
+        "id": "lexus-is250c",
+        "imageUrl": "img/cars/lexus-is250c.0.jpg",
+        "name": "Lexus IS 250 C",
+        "snippet": "Meet unexpected performance."
+    },
+    {
+        "company": "Lamborghini",
+        "id": "lamborghini-lp700-4",
+        "imageUrl": "img/cars/lamborghini-lp700-4.0",
+        "name": "Lamborghini Aventador LP 700-4",
+        "snippet": "Fast just got faster."
+    },
+    {
+        "company": "Audi",
+        "id": "audi-q3",
+        "imageUrl": "img/cars/audi-q3.0.jpg",
+        "name": "Audi Q3",
+        "snippet": "Nimble performance and versatility."
+    },
+    {
+        "company": "Audi",
+        "id": "audi-s4",
+        "imageUrl": "img/cars/audi-s4.0.jpg",
+        "name": "Audi S4",
+        "snippet": "All the right moves."
+    },
+    {
+        "company": "Audi",
+        "id": "audi-r8spyder",
+        "imageUrl": "img/cars/audi-r8spyder.0.jpg",
+        "name": "Audi R8 Spyder",
+        "snippet": "Possess unrivaled power and performance"
+    },
+    {
+        "company": "Mercedes-Benz",
+        "id": "mercedes-s550-sedan",
+        "imageUrl": "img/cars/mercedes-s550-sedan.0.jpg",
+        "name": "Mercedes-Benz S550 Sedan",
+        "snippet": "Elegant, in everything it does."
+    },
+    {
+        "company": "Mercedes-Benz",
+        "id": "mercedes-c250-sedan",
+        "imageUrl": "img/cars/mercedes-c250-sedan.0.jpg",
+        "name": "Mercedes-Benz C250 Sport Sedan",
+        "snippet": "Poised for performance, styled for seduction."
+    }
+]
