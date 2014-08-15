@@ -2,12 +2,18 @@
 
 /* Controllers */
 
-var carcatApp = angular.module('carcatApp', []);
+var carcatControllers = angular.module('carcatControllers', []);
 
-carcatApp.controller('CarListCtrl', function($scope, $http) {
-  $http.get('cars/cars.json').success(function(data) {
-    $scope.cars = data;
-  });
+carcatControllers.controller('CarListCtrl', ['$scope', '$http',
+  function($scope, $http) {
+    $http.get('cars/cars.json').success(function(data) {
+      $scope.cars = data;
+    });
 
-  $scope.orderProp = 'company';
-});
+    $scope.orderProp = 'company';
+  }]);
+
+carcatControllers.controller('CarDetailCtrl', ['$scope', '$routeParams',
+  function($scope, $routeParams) {
+    $scope.carId = $routeParams.carId;
+  }]);
