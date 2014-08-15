@@ -1,1 +1,42 @@
-TBD: detail view for <span>{{carId}}</span>
+<img ng-src="{{car.images[0]}}" class="car">
+
+<h1>{{car.name}}</h1>
+
+<ul class="car-thumbs">
+  <li ng-repeat="img in car.images">
+    <img ng-src="{{img}}">
+  </li>
+</ul>
+
+<ul class="specs">
+  <li>
+    <span>Fuel Information</span>
+    <dl>
+      <dt>Fuel Capacity</dt>
+      <dd>{{car.fuelInformation.fuelTankCapacity}}</dd>
+      <dt>Fuel Consumption (City)</dt>
+      <dd>{{car.fuelInformation.fuelConsumption.city}}</dd>
+      <dt>Fuel Consumption (Highway)</dt>
+      <dd>{{car.fuelInformation.fuelConsumption.highway}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>Performance</span>
+    <dl>
+      <dt>Top Speed</dt>
+      <dd>{{car.topSpeed}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>Additional Features</span>
+    <dl>
+      <dd ng-repeat="entertainment in car.entertainment">{{entertainment}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>Cost</span>
+    <dl>
+      <dd>${{car.cost}}</dd>
+    </dl>
+  </li>
+</ul>

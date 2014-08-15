@@ -13,7 +13,9 @@ carcatControllers.controller('CarListCtrl', ['$scope', '$http',
     $scope.orderProp = 'company';
   }]);
 
-carcatControllers.controller('CarDetailCtrl', ['$scope', '$routeParams',
-  function($scope, $routeParams) {
-    $scope.carId = $routeParams.carId;
+carcatControllers.controller('CarDetailCtrl', ['$scope', '$routeParams', '$http',
+  function($scope, $routeParams, $http) {
+    $http.get('cars/' + $routeParams.carId + '.json').success(function(data) {
+      $scope.car = data;
+    });
   }]);
