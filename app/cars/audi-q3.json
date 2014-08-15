@@ -1,0 +1,23 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "16.9",
+        "fuelConsumption": { 
+            "city": "20",
+            "highway": "29"
+        }
+    },
+    "topSpeed": "130mph",
+    "entertainment": [
+        "Bluetooth and USB connectivity",
+        "Climate Control",
+        "BOSE Concert Surround Sound System"
+    ],
+    "images": [
+        "img/cars/audi-q3.0.jpg",
+        "img/cars/audi-q3.1.jpg",
+        "img/cars/audi-q3.2.jpg",
+        "img/cars/audi-q3.3.jpg",
+        "img/cars/audi-q3.4.jpg"
+    ],
+    "cost": "32,500"
+}

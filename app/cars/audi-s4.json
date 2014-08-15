@@ -1,0 +1,23 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "16.1",
+        "fuelConsumption": { 
+            "city": "17",
+            "highway": "26"
+        }
+    },
+    "topSpeed": "155mph",
+    "entertainment": [
+        "Bluetooth and USB connectivity",
+        "Climate Control",
+        "BOSE Concert Surround Sound System"
+    ],
+    "images": [
+        "img/cars/audi-s4.0.jpg",
+        "img/cars/audi-s4.1.jpg",
+        "img/cars/audi-s4.2.jpg",
+        "img/cars/audi-s4.3.jpg",
+        "img/cars/audi-s4.4.jpg"
+    ],
+    "cost": "48,400"
+}

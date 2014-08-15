@@ -1,0 +1,26 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "22.4",
+        "fuelConsumption": { 
+            "city": "19",
+            "highway": "27"
+        }
+    },
+    "topSpeed": "130mph",
+    "entertainment": [
+        "iDrive 4.2: Now with touchpad",
+        "BMW Apps",
+        "Harman Kardon Surround Sound System",
+        "USB Interface",
+        "Bluetooth Audio Streaming",
+        "BMW Online"
+    ],
+    "images": [
+        "img/cars/bmw-x5.0.jpg",
+        "img/cars/bmw-x5.1.jpg",
+        "img/cars/bmw-x5.2.jpg",
+        "img/cars/bmw-x5.3.jpg",
+        "img/cars/bmw-x5.4.jpg"
+    ],
+    "cost": "52,800"
+}

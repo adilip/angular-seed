@@ -1,0 +1,25 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "17.7",
+        "fuelConsumption": { 
+            "city": "21",
+            "highway": "28"
+        }
+    },
+    "topSpeed": "130mph",
+    "entertainment": [
+        "iDrive 4.2: Now with touchpad",
+        "BMW Apps",
+        "Harman Kardon Surround Sound System",
+        "USB Interface",
+        "Bluetooth Audio Streaming"
+    ],
+    "images": [
+        "img/cars/bmw-x3.0.jpg",
+        "img/cars/bmw-x3.1.jpg",
+        "img/cars/bmw-x3.2.jpg",
+        "img/cars/bmw-x3.3.jpg",
+        "img/cars/bmw-x3.4.jpg"
+    ],
+    "cost": "38,400"
+}

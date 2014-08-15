@@ -1,0 +1,26 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "17.4",
+        "fuelConsumption": { 
+            "city": "19",
+            "highway": "27"
+        }
+    },
+    "topSpeed": "112mph",
+    "entertainment": [
+        "Lexus Enform",
+        "Voice Command",
+        "Bluetooth and USB connectivity",
+        "HD Surround Sound System",
+        "Heads up Display",
+        "Voice Activated Navigation System"
+    ],
+    "images": [
+        "img/cars/lexus-is250c.0.jpg",
+        "img/cars/lexus-is250c.1.jpg",
+        "img/cars/lexus-is250c.2.jpg",
+        "img/cars/lexus-is250c.3.jpg",
+        "img/cars/lexus-is250c.4.jpg"
+    ],
+    "cost": "36,550"
+}

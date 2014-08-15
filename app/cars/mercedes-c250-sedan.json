@@ -1,0 +1,24 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "17.4",
+        "fuelConsumption": { 
+            "city": "22",
+            "highway": "31"
+        }
+    },
+    "topSpeed": "130mph",
+    "entertainment": [
+        "High-Resolution Screens",
+        "COMAND System with Touchpad",
+        "Cabin Fragrance System",
+        "Multicolor LED Ambient Lighting"
+    ],
+    "images": [
+        "img/cars/mercedes-c250-sedan.0.jpg",
+        "img/cars/mercedes-c250-sedan.1.jpg",
+        "img/cars/mercedes-c250-sedan.2.jpg",
+        "img/cars/mercedes-c250-sedan.3.jpg",
+        "img/cars/mercedes-c250-sedan.4.jpg"
+    ],
+    "cost": "39,400"
+}

@@ -1,0 +1,23 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "21.1",
+        "fuelConsumption": { 
+            "city": "11",
+            "highway": "20"
+        }
+    },
+    "topSpeed": "186mph",
+    "entertainment": [
+        "Bluetooth and USB connectivity",
+        "Climate Control",
+        "BOSE Concert Surround Sound System"
+    ],
+    "images": [
+        "img/cars/audi-r8spyder.0.jpg",
+        "img/cars/audi-r8spyder.1.jpg",
+        "img/cars/audi-r8spyder.2.jpg",
+        "img/cars/audi-r8spyder.3.jpg",
+        "img/cars/audi-r8spyder.4.jpg"
+    ],
+    "cost": "129,400"
+}

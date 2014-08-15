@@ -1,0 +1,25 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "24",
+        "fuelConsumption": { 
+            "city": "24",
+            "highway": "58"
+        }
+    },
+    "topSpeed": "217mph",
+    "entertainment": [
+        "Intelligent Controls",
+        "Bluetooth Kit",
+        "Navigation Kit",
+        "Kenwood Surround Sound System",
+        "Complete Personalization"
+    ],
+    "images": [
+        "img/cars/lamborghini-lp700-4.0.jpg",
+        "img/cars/lamborghini-lp700-4.1.jpg",
+        "img/cars/lamborghini-lp700-4.2.jpg",
+        "img/cars/lamborghini-lp700-4.3.jpg",
+        "img/cars/lamborghini-lp700-4.4.jpg",
+    ],
+    "cost": "397,500"
+}

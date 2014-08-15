@@ -1,0 +1,22 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "14.5",
+        "fuelConsumption": { 
+            "city": "22",
+            "highway": "34"
+        }
+    },
+    "topSpeed": "130mph",
+    "entertainment": [
+        "Extensive Music and Communications System",
+        "The iDrive system"
+    ],
+    "images": [
+        "img/cars/bmw-z4.0.jpg",
+        "img/cars/bmw-z4.1.jpg",
+        "img/cars/bmw-z4.2.jpg",
+        "img/cars/bmw-z4.3.jpg",
+        "img/cars/bmw-z4.4.jpg"
+    ],
+    "cost": "48,950"
+}

@@ -1,0 +1,25 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "19.2",
+        "fuelConsumption": { 
+            "city": "18",
+            "highway": "25"
+        }
+    },
+    "topSpeed": "112mph",
+    "entertainment": [
+        "Lexus Enform",
+        "Voice Command",
+        "Bluetooth and USB connectivity",
+        "HD Surround Sound System",
+        "Heads up Display"
+    ],
+    "images": [
+        "img/cars/lexus-rx350.0.jpg",
+        "img/cars/lexus-rx350.1.jpg",
+        "img/cars/lexus-rx350.2.jpg",
+        "img/cars/lexus-rx350.3.jpg",
+        "img/cars/lexus-rx350.4.jpg"
+    ],
+    "cost": "40,795"
+}

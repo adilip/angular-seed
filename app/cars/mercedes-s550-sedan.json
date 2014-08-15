@@ -1,0 +1,24 @@
+{
+    "fuelInformation": { 
+        "fuelTankCapacity": "21.9",
+        "fuelConsumption": { 
+            "city": "17",
+            "highway": "26"
+        }
+    },
+    "topSpeed": "155mph",
+    "entertainment": [
+        "High-Resolution Screens",
+        "COMAND System with Touchpad",
+        "Cabin Fragrance System",
+        "Multicolor LED Ambient Lighting"
+    ],
+    "images": [
+        "img/cars/mercedes-s550-sedan.0.jpg",
+        "img/cars/mercedes-s550-sedan.1.jpg",
+        "img/cars/mercedes-s550-sedan.2.jpg",
+        "img/cars/mercedes-s550-sedan.3.jpg",
+        "img/cars/mercedes-s550-sedan.4.jpg"
+    ],
+    "cost": "94,440"
+}
