@@ -2,8 +2,11 @@
 
 /* Services */
 
+var carcatServices = angular.module('carcatServices', ['ngResource']);
 
-// Demonstrate how to register services
-// In this case it is a simple value service.
-angular.module('myApp.services', []).
-  value('version', '0.1');
+carcatServices.factory('Car', ['$resource',
+  function($resource){
+    return $resource('cars/:carId.json', {}, {
+      query: {method:'GET', params:{carId:'cars'}, isArray:true}
+    });
+  }]);

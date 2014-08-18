@@ -4,18 +4,19 @@
 
 var carcatControllers = angular.module('carcatControllers', []);
 
-carcatControllers.controller('CarListCtrl', ['$scope', '$http',
-  function($scope, $http) {
-    $http.get('cars/cars.json').success(function(data) {
-      $scope.cars = data;
-    });
-
+carcatControllers.controller('CarListCtrl', ['$scope', 'Car',
+  function($scope, Car) {
+    $scope.cars = Car.query();
     $scope.orderProp = 'company';
   }]);
 
-carcatControllers.controller('CarDetailCtrl', ['$scope', '$routeParams', '$http',
-  function($scope, $routeParams, $http) {
-    $http.get('cars/' + $routeParams.carId + '.json').success(function(data) {
-      $scope.car = data;
+carcatControllers.controller('CarDetailCtrl', ['$scope', '$routeParams', 'Car',
+  function($scope, $routeParams, Car) {
+    $scope.car = Car.get({carId: $routeParams.carId}, function(car) {
+      $scope.mainImageUrl = car.images[0];
     });
+
+    $scope.setImage = function(imageUrl) {
+      $scope.mainImageUrl = imageUrl;
+    }
   }]);
