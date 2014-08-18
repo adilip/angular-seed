@@ -4,6 +4,7 @@
 
 var carcatApp = angular.module('carcatApp', [
   'ngRoute',
+  'carcatAnimations',
   'carcatControllers',
   'carcatFilters',
   'carcatServices'
