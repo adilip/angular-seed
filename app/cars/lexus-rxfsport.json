@@ -6,7 +6,11 @@
             "highway": "25"
         }
     },
-    "topSpeed": "112mph",
+    "performance": {
+        "topSpeed": "112mph",
+        "Automatic": true,
+        "Manual": false
+    },
     "entertainment": [
         "Lexus Enform",
         "Voice Command",

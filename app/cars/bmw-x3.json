@@ -6,7 +6,11 @@
             "highway": "28"
         }
     },
-    "topSpeed": "130mph",
+    "performance": {
+        "topSpeed": "130mph",
+        "Automatic": true,
+        "Manual": false
+    },
     "entertainment": [
         "iDrive 4.2: Now with touchpad",
         "BMW Apps",

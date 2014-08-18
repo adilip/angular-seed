@@ -24,7 +24,11 @@
     <span>Performance</span>
     <dl>
       <dt>Top Speed</dt>
-      <dd>{{car.topSpeed}}</dd>
+      <dd>{{car.performance.topSpeed}}</dd>
+      <dt>Automatic</dt>
+      <dd>{{car.performance.Automatic | checkmark}}</dd>
+      <dt>Manual</dt>
+      <dd>{{car.performance.Manual | checkmark}}</dd>
     </dl>
   </li>
   <li>

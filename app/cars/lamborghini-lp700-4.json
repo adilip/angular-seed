@@ -6,7 +6,11 @@
             "highway": "58"
         }
     },
-    "topSpeed": "217mph",
+    "performance": {
+        "topSpeed": "217mph",
+        "Automatic": false,
+        "Manual": true
+    },
     "entertainment": [
         "Intelligent Controls",
         "Bluetooth Kit",

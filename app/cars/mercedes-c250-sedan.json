@@ -6,7 +6,11 @@
             "highway": "31"
         }
     },
-    "topSpeed": "130mph",
+    "performance": {
+        "topSpeed": "130mph",
+        "Automatic": true,
+        "Manual": false
+    },
     "entertainment": [
         "High-Resolution Screens",
         "COMAND System with Touchpad",

@@ -4,7 +4,8 @@
 
 var carcatApp = angular.module('carcatApp', [
   'ngRoute',
-  'carcatControllers'
+  'carcatControllers',
+  'carcatFilters'
 ]);
 
 carcatApp.config(['$routeProvider',

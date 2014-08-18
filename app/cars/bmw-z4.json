@@ -6,7 +6,11 @@
             "highway": "34"
         }
     },
-    "topSpeed": "130mph",
+    "performance": {
+        "topSpeed": "130mph",
+        "Automatic": true,
+        "Manual": true
+    },
     "entertainment": [
         "Extensive Music and Communications System",
         "The iDrive system"

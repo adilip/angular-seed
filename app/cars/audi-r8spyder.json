@@ -6,7 +6,11 @@
             "highway": "20"
         }
     },
-    "topSpeed": "186mph",
+    "performance": {
+        "topSpeed": "186mph",
+        "Automatic": false,
+        "Manual": true
+    },
     "entertainment": [
         "Bluetooth and USB connectivity",
         "Climate Control",
